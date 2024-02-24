@@ -9,7 +9,7 @@ import mysql.connector
 def Api_key_connection():
   api_service_name = "youtube"
   api_version = "v3"
-  api_key = "AIzaSyA2b7YBOEMdMayPkvxS09KXB4MpDf5ZLGM"
+  api_key = "AIzaSyATz7kc3grDd7A1h_pSR76M4n7RZb63z7k"
 
   youtube =build(api_service_name, api_version, developerKey=api_key)
   return youtube
